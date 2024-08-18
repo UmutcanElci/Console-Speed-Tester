@@ -1,0 +1,11 @@
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\bin\Debug\net8.0\SpeedTester.deps.json
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\bin\Debug\net8.0\SpeedTester.dll
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\bin\Debug\net8.0\SpeedTester.pdb
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\SpeedTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\SpeedTester.AssemblyInfoInputs.cache
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\SpeedTester.AssemblyInfo.cs
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\SpeedTester.csproj.CoreCompileInputs.cache
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\SpeedTester.dll
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\refint\SpeedTester.dll
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\SpeedTester.pdb
+C:\Users\Malat\Desktop\Code\NetSpeed\SpeedTester\obj\Debug\net8.0\ref\SpeedTester.dll
