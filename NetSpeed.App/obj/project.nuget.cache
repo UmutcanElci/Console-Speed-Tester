@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "END4JVKRVBWB081IWvbCyPEli3Icl8UZy48wLssVqS+FrTZQOy0hmVz/d9HTm6TYNlIWZisvHus5NEf51arOgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Malat\\Desktop\\Code\\NetSpeed\\NetSpeed.App\\NetSpeed.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Malat\\.nuget\\packages\\spectre.console\\0.49.2-preview.0.16\\spectre.console.0.49.2-preview.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
