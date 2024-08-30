@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetSpeed.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b871ac624058aec7017c837d6d89fdcca3b927eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+723bc6efc2a5708e43e8a5790e75ac0c8217b2a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetSpeed.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetSpeed.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
