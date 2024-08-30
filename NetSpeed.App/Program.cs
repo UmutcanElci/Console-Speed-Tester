@@ -5,10 +5,29 @@ using System.Linq;
 using SpeedTester;
 using Spectre.Console;
 
-string result = new SpeedTest().Test();
-ParseAndPrintSpeedTestResult(result);
+var speedTest = new SpeedTest();
 
-static void ParseAndPrintSpeedTestResult(string result)
+int runTimes = 5;
+List<double> downloadSpeeds = new List<double>();
+List<double> uploadSpeeds = new List<double>();
+
+for (int i = 0; i < runTimes; i++)
+{
+    Console.WriteLine($"Running test {i + 1}...");
+    string result = speedTest.Test();
+    ParseAndPrintSpeedTestResult(result,  downloadSpeeds, uploadSpeeds);
+    Console.WriteLine($"Test {i + 1} completed.");
+ 
+    System.Threading.Thread.Sleep(1000);
+}
+
+double downloadAvg = downloadSpeeds.Count > 0 ? downloadSpeeds.Average() : 0;
+double uploadAvg = uploadSpeeds.Count > 0 ? uploadSpeeds.Average() : 0;
+
+Console.WriteLine($"Average Download Speed: {downloadAvg} Mbps");
+Console.WriteLine($"Average Upload Speed: {uploadAvg} Mbps");
+
+static void ParseAndPrintSpeedTestResult(string result,  List<double> downloadSpeeds, List<double> uploadSpeeds)
 {
     string[] delimiters = new string[]
     {
@@ -52,22 +71,21 @@ static void ParseAndPrintSpeedTestResult(string result)
                     Console.WriteLine($"{delimiter} Value:{resultValue}\n");
                     if (delimiter == "Idle Latency:")
                     {
-                        latency += resultValue;
+                        //latency += resultValue;
                     }
                     else if (delimiter == "Download:")
                     {
-                        downloadSpeed += resultValue;
+                        downloadSpeeds.Add(resultValue);
                     }
                     else if (delimiter == "Upload:")
                     {
-                        uploadSpeed += resultValue;
+                        uploadSpeeds.Add(resultValue);
                     }
                 }
             }
         }
     }
 
-    double downloadAvg = 0.0;
-    double uploadAvg = 0.0;
+    
     
 }
