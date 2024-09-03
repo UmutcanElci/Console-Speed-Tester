@@ -6,7 +6,7 @@ public class SpeedTest
 {
     public string Test()
     {
-        string absPath = "your absolute path";
+        string absPath = "C:\\Users\\Malat\\Desktop\\Code\\NetSpeed\\SpeedTester\\speedtest.exe";
         try
         {
             using (Process process = new Process())
